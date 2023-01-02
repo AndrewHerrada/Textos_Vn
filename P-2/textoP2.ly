@@ -2,20 +2,22 @@
 
 ejercicioUno = 
 \relative c'{
+   \override Score.BarNumber.break-visibility = ##(#f #f #f)
  \numericTimeSignature
   \time 4/4
-  a'1-0 b-1 a2-0 b-1 a-0 b-1 \repeat volta 2 {a4-0 b-1 a-0 b-1 a-0 b-1 a-0 b-1} a2.-0 r4 \bar "||" \break
-  d,1-0 e-1 d2-0 e-1 d-0 e-1 \repeat volta 2 {d4-0 e-1 d-0 e-1 d-0 e-1 d-0 e-1} d2.-0 r4 \bar "||" \break
-  g,1-0 a-1 g2-0 a-1 g-0 a-1 \repeat volta 2 {g4-0 a-1 g-0 a-1 g-0 a-1 g-0 a-1} g2.-0 r4 \bar "||" \break
-  e''1-0 fis-1 e-0 fis-1 e-0 fis-1 \repeat volta 2 {e4-0 fis-1 e-0 fis-1 e-0 fis-1 e-0 fis-1} e2.-0 r4 \bar "|." \break
+  a'1-0 \downbow b-1 \upbow a2-0 b-1 a-0 b-1 \repeat volta 2 {a4-0 b-1 a-0 b-1 a-0 b-1 a-0 b-1} a2.-0 \downbow r4 \bar "||" \break
+  d,1-0 \downbow e-1 \upbow d2-0 e-1 d-0 e-1 \repeat volta 2 {d4-0 e-1 d-0 e-1 d-0 e-1 d-0 e-1} d2.-0 \downbow r4 \bar "||" \break
+  g,1-0 \downbow a-1 \upbow g2-0 a-1 g-0 a-1 \repeat volta 2 {g4-0 a-1 g-0 a-1 g-0 a-1 g-0 a-1} g2.-0 \downbow r4 \bar "||" \break
+  e''1-0 \downbow fis-1 \upbow e-0 fis-1 e-0 fis-1 \repeat volta 2 {e4-0 fis-1 e-0 fis-1 e-0 fis-1 e-0 fis-1} e2.-0 \downbow r4 \bar "|." \break
 }
 
 
 ejercicioDos = 
 \relative c' {
+  \override Score.BarNumber.break-visibility = ##(#f #f #f)
   \numericTimeSignature
   \time 4/4
-  a'2-0  b-1 cis-2 b-1 cis-2 b-1 cis-2 b-1 \repeat volta 2 {a4-0 b-1 cis-2 b-1 cis-2 b-1 cis-2 b-1} a2.-0 r4 \bar "||" \break
+  a'2-0 \downbow b-1 cis-2 b-1 cis-2 b-1 cis-2 b-1 \repeat volta 2 {a4-0 b-1 cis-2 b-1 cis-2 b-1 cis-2 b-1} a2.-0 r4 \bar "||" \break
   d,2-0  e-1 fis-2 e-1 fis-2 e-1 fis-2 e-1 \repeat volta 2 {d4-0 e-1 fis-2 e-1 fis-2 e-1 fis-2 e-1 } d2.-0 r4 \bar "||" \break
   g,2-0  a-1 b-2 a-1 b-2 a-1 b-2 a-1 \repeat volta 2 {g4-0 a-1 b-2 a-1 b-2 a-1 b-2 a-1} g2.-0 r4 \bar "||" \break
   e''2-0 fis-1 gis-2 fis-1 gis-2 fis-1 gis-2 fis-1 \repeat volta 2 {e4-0 fis-1 gis-2 fis-1 gis-2 fis-1 gis-2 fis-1} e2.-0 r4 \bar "|." \break
@@ -24,9 +26,10 @@ ejercicioDos =
 
 ejercicioTres = 
 \relative c' {
+  \override Score.BarNumber.break-visibility = ##(#f #f #f)
   \numericTimeSignature
   \time 4/4
-  a'2-0 b-1 cis-2 d-3 cis-2 d-3 cis-2 b-1 \repeat volta 2 {a4-0 b-1 cis-2 d-3 cis-2 d-3 cis-2 b-1} a2.-0 r4 \bar "||" \break
+  a'2-0 \downbow b-1 cis-2 d-3 cis-2 d-3 cis-2 b-1 \repeat volta 2 {a4-0 b-1 cis-2 d-3 cis-2 d-3 cis-2 b-1} a2.-0 r4 \bar "||" \break
   d,2-0 e-1 fis-2 g-3 fis-2 g-3 fis-2 e-1 \repeat volta 2 {d4-0 e-1 fis-2 g-3 fis-2 g-3 fis-2 e-1 } d2.-0 r4 \bar "||" \break
   g,2-0 a-1 b-2 c-3 b-2 c-3 b-2 a-1 \repeat volta 2 {g4-0 a-1 b-2 c-3 b-2 c-3 b-2 a-1} g2.-0 r4 \bar "||" \break
   e''2-0 fis-1 gis-2 a-3 gis-2 a-3 gis-2 fis-1 \repeat volta 2 {e4-0 fis-1 gis-2 a-3 gis-2 a-3 gis-2 fis-1} e2.-0 r4 \bar "|." \break
@@ -35,11 +38,12 @@ ejercicioTres =
 
 ejercicioCuatro = 
 \relative c' {
+  \override Score.BarNumber.break-visibility = ##(#f #f #f)
   \key a \major
   \numericTimeSignature
   \time 4/4
-  a'2-0 b-1 cis-2 d-3 e-0 fis-1 gis-2 a-3 gis-2 fis-1 e-0 d-3 cis-2 b-1 a2.-0 r4 \bar "||" 
-  a2-0 cis-2 e-0 a-3 e-0 cis-2 a1-0 \bar "|."
+  a'2-0 \downbow b-1 cis-2 d-3 e-0 fis-1 gis-2 a-3 gis-2 fis-1 e-0 d-3 cis-2 b-1 a2.-0 r4 \bar "||" 
+  a2-0 \downbow cis-2 e-0 a-3 e-0 cis-2 a1-0 \bar "|."
 }
 
 
@@ -53,6 +57,7 @@ ejercicioCuatro =
 \book{ % primer libro
   \bookpart{ % primera parte
     \header{ 
+      %dedication = "Academia Nacional de Musica Man Cesped"
       title = "Escalas y Arpegios"
       %subtitle = " "
       %meter = "ESCALAS y ARPEGIOS"
@@ -106,13 +111,17 @@ ejercicioCuatro =
         \line {\fontsize # 1 \roman Ejercicio \number 4 }
       }
     }
+    
     \score{ 
       
       \ejercicioCuatro
       \header {
+        piece = "Escala en  La - Mayor (1 octava)" 
         
       }
     }
   } % fin de la parte y salto de página
   %\bookpart{ ... } % segunda parte
 }
+
+
