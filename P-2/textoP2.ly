@@ -29,7 +29,7 @@ ejercicioTres =
   a'2-0 b-1 cis-2 d-3 cis-2 d-3 cis-2 b-1 \repeat volta 2 {a4-0 b-1 cis-2 d-3 cis-2 d-3 cis-2 b-1} a2.-0 r4 \bar "||" \break
   d,2-0 e-1 fis-2 g-3 fis-2 g-3 fis-2 e-1 \repeat volta 2 {d4-0 e-1 fis-2 g-3 fis-2 g-3 fis-2 e-1 } d2.-0 r4 \bar "||" \break
   g,2-0 a-1 b-2 c-3 b-2 c-3 b-2 a-1 \repeat volta 2 {g4-0 a-1 b-2 c-3 b-2 c-3 b-2 a-1} g2.-0 r4 \bar "||" \break
-  e''2-0 fis-1 gis-2 a-3 gis-2 a-3 gis-2 fis-1 \repeat volta 2 {e4-0 fis-1 gis-2 a-3 gis-2 a-3 gis-2 fis-1} e2.-0 r4 \bar "|.a" \break
+  e''2-0 fis-1 gis-2 a-3 gis-2 a-3 gis-2 fis-1 \repeat volta 2 {e4-0 fis-1 gis-2 a-3 gis-2 a-3 gis-2 fis-1} e2.-0 r4 \bar "|." \break
   
 }
 
@@ -41,6 +41,8 @@ ejercicioCuatro =
   a'2-0 b-1 cis-2 d-3 e-0 fis-1 gis-2 a-3 gis-2 fis-1 e-0 d-3 cis-2 b-1 a2.-0 r4 \bar "||" 
   a2-0 cis-2 e-0 a-3 e-0 cis-2 a1-0 \bar "|."
 }
+
+
 
 \paper {
    #(set-paper-size "letter")
