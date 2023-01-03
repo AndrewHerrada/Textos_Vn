@@ -41,7 +41,7 @@ ejercicioCuatro =
   \override Score.BarNumber.break-visibility = ##(#f #f #f)
   \numericTimeSignature
   \time 4/4
-  a'4-0 \downbow b-1 cis-2 d-3 e-0 d-3 e-0 d-3 e-0 d-3 cis-2 d-3 e-0 d-3 e-0 d-3 e-0 d-3 cis-2 b-1 a2.-0 r4 \bar "||" \break
+  a'4-0 \downbow b-1^"___________________________________________________________________________" cis-2^"___________________________________________________________________" d-3^"__________________________" e-0 d-3 e-0 d-3 e-0 d-3 cis-2 d-3^"________________________" e-0 d-3 e-0 d-3 e-0 d-3 cis-2 b-1 a2.-0 r4 \bar "||" \break
   d,-0 e-1 fis-2 g-3 a-0 g-3 a-0 g-3 a-0 g-3 fis-2 g-3 a-0 g-3 a-0 g-3 a-0 g-3 fis-2 e-1 d2.-0 r4 \bar "||" \break
   g,-0 a-1 b-2 c-3 d-0 c-3 d-0 c-3 d-0 c-3 b-2 c-3 d-0 c-3 d-0 c-3 d-0 c-3 b-2 a-1 g2.-0 r4 \bar "|."
 }
@@ -113,10 +113,10 @@ cancion =
   \key d \major
   \numericTimeSignature
   \time 4/4
-  d2-0 \downbow \mf e4-1 fis g fis e2 d4-0 d fis-2 a-0 b2-1 a \break
-  b-1 cis4 d a-0 g-3 fis2-2 e4 e fis d e2-1 a,-1 \break
-  d2 \downbow \mf e4 fis g fis e2 d4 d fis a b2 cis \break
-  d2-3 \f cis4 b a fis d2 g4-3 g fis_"rit." e d1-0 \bar "|."
+  d2-0 \downbow e4-1 e fis2-2 a-0 b-1 cis4-2 b-1 a1 \break
+  b2-1 \upbow cis4-2 b a2-0 d,-0 e-1 fis4-2 d-0 e1-1 \break
+  d2 \downbow e4 e fis2 a b cis4 b a1 \break
+  b2-1 \upbow cis4-2 b a2-0 d,4-0 e-1 fis2-2 e d1-0 \bar "|."
 }
 
 \book {
